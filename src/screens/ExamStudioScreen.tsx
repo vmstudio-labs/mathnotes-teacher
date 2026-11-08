@@ -138,7 +138,7 @@ export const ExamStudioScreen: React.FC<{ navigation: any }> = ({ navigation }) 
           <View style={styles.configGroup}>
             <Text style={styles.inputLabel}>Target Exam Track</Text>
             <View style={styles.trackChipRow}>
-              {['JEE Advanced (Paper 1)', 'JEE Mains 2026', 'UPSC CSAT Quant', 'ISI / CMI'].map(
+              {['Physics: Kinematics & Mechanics', 'Chemistry: Bonding & Organic', 'Math: JEE Calculus & Algebra', 'NEET UG (Physics & Chemistry)', 'Class 10th Boards STEM', 'Class 8th Foundation', 'UPSC CSAT Quant'].map(
                 track => (
                   <TouchableOpacity
                     key={track}
